@@ -19,19 +19,19 @@
 		</div>
 		<ul class="nav-links">
 			<li>
-				<a href="../admin.html" class="active">
+				<a href="../admin.php" class="active">
 					<i class="bx bx-grid-alt"></i>
 					<span class="links_name">Dashboard</span>
 				</a>
 			</li>
 			<li>
-				<a href="../categories/categories.html">
+				<a href="../categories/categories.php">
 					<i class="bx bx-box"></i>
 					<span class="links_name">Categories</span>
 				</a>
 			</li>
 			<li>
-				<a href="../transaction/transaction.html">
+				<a href="../transaction/transaction.php">
 					<i class="bx bx-list-ul"></i>
 					<span class="links_name">Transaction</span>
 				</a>
@@ -56,7 +56,7 @@
 		<div class="home-content">
 			<h3>Input Categories</h3>
 			<div class="form-login">
-				<form action="">
+				<form action="categories-proses.php" method="post" enctype="multipart/form-data">
 					<label for="categories">Categories</label>
 					<input class="input" type="text" name="categories" id="categories" placeholder="Categories" />
 					<label for="categories">Price</label>

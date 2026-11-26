@@ -19,19 +19,19 @@
 		</div>
 		<ul class="nav-links">
 			<li>
-				<a href="../admin.html">
+				<a href="../admin.php">
 					<i class="bx bx-grid-alt"></i>
 					<span class="links_name">Dashboard</span>
 				</a>
 			</li>
 			<li>
-				<a href="../categories/categories.html" class="active">
+				<a href="../categories/categories.php" class="active">
 					<i class="bx bx-box"></i>
 					<span class="links_name">Categories</span>
 				</a>
 			</li>
 			<li>
-				<a href="../transaction/transaction.html">
+				<a href="../transaction/transaction.php">
 					<i class="bx bx-list-ul"></i>
 					<span class="links_name">Transaction</span>
 				</a>
@@ -56,7 +56,7 @@
 		<div class="home-content">
 			<h3>Categories</h3>
 			<button type="button" class="btn btn-tambah">
-				<a href="categories-entry.html">Tambah Data</a>
+				<a href="categories-entry.php">Tambah Data</a>
 			</button>
 			<table class="table-data">
 				<thead>
