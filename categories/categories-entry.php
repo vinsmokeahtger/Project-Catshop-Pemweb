@@ -1,3 +1,10 @@
+<?php 
+	session_start();
+	if($_SESSION['username'] == null) {
+		header('location:../login.php');
+	}
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 

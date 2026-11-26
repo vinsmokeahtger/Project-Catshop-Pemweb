@@ -19,7 +19,7 @@
       </div>
       <ul class="nav-links">
          <li>
-            <a href="../admin.php" class="active">
+            <a href="../admin.php">
                <i class="bx bx-grid-alt"></i>
                <span class="links_name">Dashboard</span>
             </a>
@@ -31,7 +31,7 @@
             </a>
          </li>
          <li>
-            <a href="../transaction/transaction.php">
+            <a href="../transaction/transaction.php" class="active">
                <i class="bx bx-list-ul"></i>
                <span class="links_name">Transaction</span>
             </a>
